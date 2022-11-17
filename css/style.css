@@ -6,4 +6,28 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
 /* ********** MAIN ********** */
+
+.container {
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-cam {
+    height: calc(100% / 7);
+}
+
+.cam {
+    margin: 3px;
+}
