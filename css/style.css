@@ -15,18 +15,21 @@ body {
     color: white;
 }
 
+img{
+    display: block;
+ }
+
 
 /* ********** MAIN ********** */
 main {
-    height: 100vh;
-    height: 755px;
+    margin-top: 100px;
 }
 
 .container {
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
-    margin-top: 100px;
+    height: calc(100vh - 174px);
+    overflow: auto;
 }
 
 .cam {
@@ -95,4 +98,3 @@ p {
     align-items: center;
     cursor: pointer;
 }
-
